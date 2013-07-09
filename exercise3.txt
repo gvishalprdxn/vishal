@@ -1,0 +1,11 @@
+<?php 
+$table = 5; //we will use the multiplication table 5 
+$cnt = 1; 
+
+while($cnt != 11) 
+{ 
+echo "
+$table x $cnt = ". $table * $cnt; 
+$cnt++; 
+} 
+?> 
